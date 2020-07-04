@@ -16,9 +16,9 @@ public class ConsumerDemo {
 //        int i = 1/0;
     }
 
-    /*@RabbitListener(queues = "queueName")
-    public void processObj(User user) {
-        System.out.printf("====data: %s",user);
-        int i = 1 / 0;
-    }*/
+    @RabbitListener(queues = "queueName")
+    public void processObj(User message) {
+        System.out.printf("====data: %s",message);
+//        int i = 1 / 0;
+    }
 }

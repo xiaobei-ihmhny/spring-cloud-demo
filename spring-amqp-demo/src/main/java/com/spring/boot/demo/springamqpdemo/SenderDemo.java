@@ -19,8 +19,8 @@ public class SenderDemo {
                 "exchangeName", "routingKey", "hello, rabbitmq~");
     }
 
-    /*public void sendObject() {
+    public void sendObject() {
         User user = new User("xiaobei","123456");
         rabbitTemplate.convertAndSend("exchangeName", "routingKey", user);
-    }*/
+    }
 }

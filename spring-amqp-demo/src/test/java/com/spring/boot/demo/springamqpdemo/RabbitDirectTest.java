@@ -23,9 +23,9 @@ public class RabbitDirectTest {
         senderDemo.sendStr();
     }
 
-    /*@Test
+    @Test
     public void sendDirectTest() {
         senderDemo.sendObject();
-    }*/
+    }
 
 }
